@@ -1,0 +1,329 @@
+html,body{
+  overflow-x: hidden;
+}
+#one{
+  color: #1d79c5;
+  font-size: 40px;
+}
+
+#nav li a{
+  color: #12436b;
+  margin-right:30px;
+}
+
+/* ------banner1 start------ */
+.background{
+  background: url(../images/hero-bg-abstract.jpg);
+  text-align: center;
+  padding-top: 40px;
+  height: 700px;
+
+}
+#banner1{
+  margin-top: 100px;
+}
+.card-body1{
+  margin-top:30px;
+  margin-bottom: 30px;
+  padding: 15px;
+  box-shadow:white;
+  border: none;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.card-body1 i{
+  display: flex;
+  color: #74C0FC;
+  gap: 10px;
+  align-items: center;
+}
+
+.card-title1{
+  color: #12436b;
+  text-align: left;
+ 
+}
+#a1{
+  margin-top: -20px;
+}
+.card-text1{
+text-align: left;
+}
+#bannercards .card-body1{
+  padding-top: 10px;
+}
+
+#bannercards h5{
+  margin-left: -80px;
+}
+#bannercards i{
+  margin-bottom: 30px !important;
+  margin-right: 150px;
+}
+
+
+
+/*------number start-----*/
+#background{
+  background: #d6e2eb;
+  padding: 50px;
+}
+.number{
+  color: #1d79c5;
+  font-weight: bold;
+}
+
+/*-----About start------*/
+#about{
+  text-align: left;
+}
+
+
+/*------client start----*/
+#background2{
+  background: #d6e2eb;
+}
+
+
+/*----------------TESTIMONIALS start--------------*/
+.test{
+  text-align:center;
+  padding-top:80px;
+  color: #12436b;
+}
+.card {
+  margin: 0 auto; 
+  max-width: 500px; 
+  box-shadow: #d6e2eb;
+}
+.carousel-item {
+  padding: 20px; 
+}
+.rounded-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 20px; 
+  margin-left: -190px;
+  margin-top: -40PX;
+}
+.rounded-img1{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 20px; 
+  margin-left: -300px;
+  margin-top: -40PX;
+}
+.card-text2{
+  text-align: justify;
+  background: #d6e2eb;
+  height: 200px;
+}
+.card-title1{
+  color:#12436b;
+}
+
+
+/*--------Portfolio Navbar------- */
+#nav3{
+  list-style: none;
+  justify-content: center;
+}
+#nav3 li{
+  padding-right: 10px;
+}
+
+
+/*----------cards START-------*/
+#card1{
+  background: #d6e2eb;
+}
+.card-body3{
+  margin-top:30px;
+  margin-bottom: 30px;
+  padding: 15px;
+  box-shadow:white;
+  border: none;
+}
+.card-title3{
+  color: #12436b;
+}
+
+
+/*----------CLL start-------*/
+.call{
+  text-align: center;
+  color: #fff;
+  background:#2d93e7;
+  height: 300px;
+  padding-top: 70px;
+}
+
+
+/*--------team start-------*/
+.card-title4{
+  color:#12436b ;
+}
+
+
+
+/*-------pricing start-------*/
+.card-body1{
+  padding-top:30px;
+}
+.card-title5{
+  color:#12436b ;
+}
+#month{
+  color: #12436b;
+}
+#mark{
+  text-decoration: line-through;
+}
+#box:hover{
+  background: #2d93e7;
+  margin-top: -40px;
+}
+#buy{
+  margin-left: 40px;
+}
+.card-body1 p i{
+  margin-left: -20px;
+  margin-bottom: -20px;
+}
+
+/*---------QUESTIONS  end-------*/
+.accordion{
+  background:#f5f9fc ;
+}
+
+
+
+/* -------------- footer---------- */
+#a{
+  color: #12436b;
+}
+#foot{
+  margin-top: 50px;
+  background:#f5f9fc ;
+  padding-top: 20px;
+}
+#first{
+  text-align: left;
+}
+
+#last{
+  text-align: left;
+
+}
+#footer ul li{
+  list-style: none;
+  text-align: left !important;
+  color:black !important;
+}
+#footer h6,#footer h3{
+  text-align: left;
+  font-weight: bolder;
+}
+#footer i{
+  height:40px;
+  width:40px;
+  padding-left: 12px;
+  padding-top: 12px;
+  background-color: rgb(222, 236, 244);
+}
+
+
+
+/*-----------------MEDIA-----------------*/
+@media (max-width:576px) and (min-width:350px){
+  #aboutus{
+    margin-top: 100px;
+  }
+  #aboutus [type="button"]{
+    margin-right: -400px;
+  }
+  #img{
+    margin-right: -100px;
+  }
+  .card-title8{
+   margin-right: -100px; 
+  }
+  #dev{
+    margin-right: -50px;
+  }
+  .background{
+    background: url(../images/hero-bg-abstract.jpg);
+    text-align: center;
+    padding-top: 40px;
+    height: 1690px;
+  }
+  .card-body1 p i{
+    margin-left: -13px !important;
+  }
+  #vediobutton{
+    margin-bottom: -240px;
+  }
+   #background2 img{
+    height:30px;
+    width:50px;
+   }
+   .card-body1  h5 {
+    margin-right: -70px;
+   }
+   .card-body1 a{
+    margin-right: -45px;
+   }
+}
+@media (max-width:768px) and (min-width:577px){
+  #aboutus{
+    margin-top:30px;
+  }
+  #aboutus [type="button"]{
+    margin-right: -300px;
+  }
+  .background{
+    background: url(../images/hero-bg-abstract.jpg);
+    text-align: center;
+    padding-top: 40px;
+    height: 1300px;
+  
+  }
+  .card-body1{
+    width: 100%;
+  }
+  #buy{
+    margin-right: 100px;
+  }
+  #vediobutton{
+    margin-bottom: -240px;
+  }
+  
+}
+@media (max-width:992px) and (min-width:769px){
+  #aboutus{
+    margin-top: 190px;
+  }
+  #aboutus [type="button"]{
+    margin-right: -200px;
+  }
+  #img{
+    margin-left: -2000px !important; 
+   }
+   #dev{
+     margin-right: 50px;
+   }
+}
+@media (max-width:576px) and (min-width:401px){
+  #background2 img{
+    height:30px;
+    width:50px;
+  }
+}
+
+
