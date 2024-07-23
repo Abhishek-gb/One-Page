@@ -241,9 +241,9 @@ text-align: left;
 
 
 /*-----------------MEDIA-----------------*/
-@media (max-width:576px) and (min-width:401px){
+@media (max-width:576px) and (min-width:350px){
   #aboutus{
-    margin-top: 30px;
+    margin-top: 100px;
   }
   #aboutus [type="button"]{
     margin-right: -400px;
@@ -269,6 +269,10 @@ text-align: left;
   #vediobutton{
     margin-bottom: -240px;
   }
+   #background2 img{
+    height:30px;
+    width:50px;
+   }
 }
 @media (max-width:768px) and (min-width:577px){
   #aboutus{
