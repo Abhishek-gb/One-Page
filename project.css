@@ -258,10 +258,10 @@ text-align: left;
     margin-right: -50px;
   }
   .background{
-    background: url(hero-bg-abstract.jpg);
+    background: url(../images/hero-bg-abstract.jpg);
     text-align: center;
     padding-top: 40px;
-    height: 1550px;
+    height: 1690px;
   }
   .card-body1 p i{
     margin-left: -13px !important;
@@ -272,6 +272,12 @@ text-align: left;
    #background2 img{
     height:30px;
     width:50px;
+   }
+   .card-body1  h5 {
+    margin-right: -50px;
+   }
+   .card-body1 a{
+    margin-right: -35px;
    }
 }
 @media (max-width:768px) and (min-width:577px){
