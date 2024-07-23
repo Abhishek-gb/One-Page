@@ -258,7 +258,7 @@ text-align: left;
     margin-right: -50px;
   }
   .background{
-    background: url(hero-bg-abstract.jpg);
+    background: url(hero-bg-abstract.jpg) !important;
     text-align: center;
     padding-top: 40px;
     height: 1690px;
