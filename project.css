@@ -274,10 +274,10 @@ text-align: left;
     width:50px;
    }
    .card-body1  h5 {
-    margin-right: -50px;
+    margin-right: -70px;
    }
    .card-body1 a{
-    margin-right: -35px;
+    margin-right: -45px;
    }
 }
 @media (max-width:768px) and (min-width:577px){
